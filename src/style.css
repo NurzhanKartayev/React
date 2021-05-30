@@ -1,0 +1,39 @@
+
+.nav-bar {
+    background-color: #24292e;
+    color: rgba(255, 255, 255, 0.75);
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+a {
+    color: #aef9d7;
+    text-align: center;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a.active {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.login-form{
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+}
+
+.error-message {
+    color: red;
+}
+
